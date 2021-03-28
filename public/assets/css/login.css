@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 90%;
+    background: #5db1ff;
+    align-items: center;
+    margin: 5px auto;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.header {
+    width: auto;
+    height: auto;
+}
+.header img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(43, 109, 40);
+    /* width: 100%; */
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color:; */
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(58, 141, 63);
+}
+.navbar li a:hover:not(.active) {
+    background-color: rgb(65, 141, 58);
+}
+
+.active {
+    background-color: rgb(87, 78, 184);
+}
+
+.actives {
+    background-color: #637e2e;
+}
+
+.konten {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: #ccffac;
+}
+.konten-kiri {
+    width: 35%;
+    height: 0 auto;
+    background: #d5ffd6;
+    float: left;
+}
+.kiri-atas {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin: 1rem 0.5rem;
+}
+.menu-login {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.button-login {
+    overflow: hidden;
+    width: 20%;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    margin: 5px;
+    background-color: rgb(58, 141, 61);
+    border-radius: 2px;
+}
+
+.button-login:hover {
+    background-color: rgb(58, 141, 63);
+}
+.button-login:hover:not(.active) {
+    background-color: rgb(95, 209, 112);
+}
+
+.button-login.active {
+    background-color: rgb(95, 209, 108);
+}
+
+.kiri-atas table {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    /* margin: 5px */
+}
+
+.kiri-atas table td {
+    padding: 10px 5px;
+}
+.kiri-atas input[type="text"] {
+    width: 100%;
+    padding: 8px 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.kiri-atas input[type="password"] {
+    width: 100%;
+    padding: 8px 5px;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.kiri-atas button[type="submit"] {
+    width: 100%;
+    background-color: rgb(92, 78, 184);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.kiri-atas button[type="submit"]:hover {
+    background-color: rgb(69, 58, 141);
+}
+
+.kiri-bawah {
+    width: auto;
+    height: auto;
+    background-color: rgb(124, 235, 181);
+    padding: 5px;
+    text-align: center;
+}
+.galeri {
+    padding-top: 2px;
+    padding-right: 2px;
+    background-color: white;
+}
+.galeri img {
+    width: 100%;
+}
+
+.konten-kanan {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.konten-kanan img {
+    width: 80%;
+}
+
+.footer {
+    width: auto;
+    background-color: rgb(40, 109, 45);
+    clear: both;
+    margin: 0 auto;
+    padding: 0.2rem;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
